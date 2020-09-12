@@ -5,9 +5,10 @@ with ARP requests using source IP of other devices, causing ARP conflicts which 
 WORKS ONLY ON LINUX AND MAC!
 
 #### Usage:
+* If nothing is added, the script runs Nmap to find devices on its own. Keep in mind that Nmap can sometimes fail to discover devices.
 * -add [IP address 1; IP address 2...] --- add a set of IP adresses to attack.
 * -exclude [IP address 1; IP address2...] --- attack only the selected IP addresses.
-* If nothing is added, the script runs Nmap to find devices on its own. Keep in mind that sometimes Nmap can miss hosts, hence why the "-add" was created.
+
 
 
 #### Examples:
