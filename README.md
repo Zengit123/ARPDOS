@@ -25,9 +25,4 @@ To attack specific devices in the network:
 sudo python3 arpdos.py -exclude 192.168.0.54
 
 
-Requirements:
-python3
-route
-ifconfig
-nmap (can be avoided if only "-exclude" is used)
-arping
+Requirements: python3; route; ifconfig; nmap; arping
