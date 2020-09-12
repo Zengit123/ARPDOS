@@ -1,17 +1,13 @@
 # ARPDOS
-<pre>
 This python3 script creates a Denial Of Service (DOS) attack by flooding a network's gateway
 with ARP requests using source IP of other devices, causing ARP conflicts which jams any network traffic.
-
+<br /> <br />
 WORKS ONLY ON LINUX AND MAC!
 
-
 #### Usage:
-* "-add [IP address 1; IP address 2...]" - add a set of IP adresses that you want to attack.
-* "-exclude [IP address 1; IP address2...]" - attack only the selected IP addresses.
-* If nothing is added, the script runs Nmap to find devices on its own.
-* Do not use "-add" and "-exclude" in same command, that doesn't work.
-* Nmap is not always perfect and can miss a few hosts on the network, hence why the "-add" option was created.
+* -add [IP address 1; IP address 2...] --- add a set of IP adresses to attack.
+* -exclude [IP address 1; IP address2...] --- attack only the selected IP addresses.
+* If nothing is added, the script runs Nmap to find devices on its own. Keep in mind that sometimes Nmap can miss hosts, hence why the "-add" was created.
 
 
 #### Examples:
