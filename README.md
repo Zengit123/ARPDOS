@@ -2,7 +2,7 @@
 This python3 script creates a Denial Of Service (DOS) attack by flooding a network's gateway
 with ARP requests using source IP of other devices, causing ARP conflicts which jams any network traffic.
 <br />DISCLAIMER: ANY TYPE OF DENIAL OF SERVICE (DOS) IS ILLEGAL, PLEASE DO NOT USE THIS TOOL FOR ILLEGAL PURPOSES!<br /> <br />
-WORKS ONLY ON LINUX AND MAC!
+WORKS ONLY WITH BASH!
 
 #### Usage:
 * If nothing is added, the script runs Nmap to find devices on its own. Keep in mind that Nmap can sometimes fail to discover devices.
