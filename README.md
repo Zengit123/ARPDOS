@@ -1,7 +1,7 @@
 # ARPDOS
 This python3 script creates a Denial Of Service (DOS) attack by flooding a network's gateway
 with ARP requests using source IP of other devices, causing ARP conflicts which jams any network traffic.
-<br /> <br />
+<br />DISCLAIMER: ANY TYPE OF DENIAL OF SERVICE (DOS) IS ILLEGAL, PLEASE DO NOT USE THIS TOOL FOR ILLEGAL PURPOSES!<br /> <br />
 WORKS ONLY ON LINUX AND MAC!
 
 #### Usage:
