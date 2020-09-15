@@ -33,4 +33,3 @@ sudo python3 arpdos.py -exclude 192.168.0.54
 * ifconfig
 * nmap
 * arping
-</pre>
